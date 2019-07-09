@@ -6,6 +6,7 @@ If you want to join our development team, you will most likely
 have to complete one of our technical challenges:
 
 - [Backend](https://github.com/chronogolf/jobs/tree/master/backend)
+- [Frontend](https://github.com/chronogolf/jobs/tree/master/frontend)
 
 In order to learn more about [Chronogolf](https://pro.chronogolf.com/).
 

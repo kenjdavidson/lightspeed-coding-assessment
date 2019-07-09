@@ -1,0 +1,34 @@
+<h2 class="title">Palindromes</h2>
+
+<h3 class="title">Form</h3>
+<div class="form">
+  <label>Palindrome:
+    <input class="input" />
+  </label>
+
+  <button class="button add">
+    add
+  </button>
+</div>
+
+<h3 class="title">List</h3>
+<!-- [5] Implement the filter behaviour -->
+<!--
+<div>
+  Filter:
+  <input class="input" />
+</div>
+-->
+<ul class="list">
+  <li *ngFor="let palindrome of palindromes" (click)="select(palindrome)">
+    <span class="value">{{ palindrome }}</span>
+    <button class="button delete" title="delete palindrome">x</button>
+  </li>
+</ul>
+
+<!-- [3] Implement the select behaviour -->
+<!--
+<div class="detail">
+  <div>Selected palindrome</div>
+</div>
+-->
