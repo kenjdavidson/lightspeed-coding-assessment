@@ -8,4 +8,4 @@ An important concept in golf is the **tee-time**. The latter can be defined as t
 
 One to four golfers decide when they want to play and reserve a tee-time.
 
-Calculate the total price of each reservations.
+Calculate the total price of each reservation.
