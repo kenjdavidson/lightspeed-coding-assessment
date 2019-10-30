@@ -11,7 +11,7 @@ Here is how it is encoded:
 - The output message is encoded and composed of blocks made of 0
 - The space character is used as a separator between blocks
 - 2 consecutive blocks produce a group of same-value bits (so only 1 or 0)
-- 1st block defines if the group contains 1 or 0 (0 for 0, 00 for 1)
+- 1st block defines if the group contains 1 or 0 (0 for 1, 00 for 0)
 - 2nd block defines the amount of bits in the group (0 => 1 character, 00 => 2 characters, etc...)
 
 Here is an example with a message composed of a single character: uppercase C.\
