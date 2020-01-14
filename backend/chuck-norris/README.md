@@ -21,7 +21,7 @@ C in binary is 1000011. With the Chuck Norris encoding, it gives `0 0 00 0000 0 
 - `00 0000` (second group containing four 0)
 - `0 00` (third group containing two 1)
 
-Second exemple, let's encoede CC.
+As a second example, let's encode CC.
 CC in binary is 10000111000011.\
 Which encoded gives `0 0 00 0000 0 000 00 0000 0 00`
 
