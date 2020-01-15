@@ -13,10 +13,7 @@ RSpec.describe ChuckNorris, type: :model do
 
   it 'says Hi' do
     subject.say('Hi')
-    expect(chuck_norris_output.string.split("\n")).to eq [
-      '0 0 00 00 0 0 00 000',
-      '0 00 00 0 0 0 00 00 0 0'
-    ]
+    expect(chuck_norris_output.string).to eq '0 0 00 00 0 0 00 000 0 00 00 0 0 0 00 00 0 0'
   end
 
 end
