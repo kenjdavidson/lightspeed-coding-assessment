@@ -1,0 +1,7 @@
+{
+  "reservations": [
+    { "id": 1, "starts_at": "2020-02-01 06:00:00", "customer": "Anna"},
+    { "id": 2, "starts_at": "2020-02-01 06:10:00", "customer": "Mike"},
+    { "id": 3, "starts_at": "2020-02-01 06:20:00", "customer": "Mary"}
+  ]
+}
