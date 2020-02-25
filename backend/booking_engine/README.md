@@ -2,10 +2,10 @@
 
 # The Booking Engine challenge
 
-Each golf club manages players reservation through our system.
+Golf clubs manage player reservations through our system.
 When a player wants to make a reservation, the request needs to be passed through a booking engine that will determine if the request is valid. The system will then confirm the reservation if valid.
 
-Your mission consists of building a simple booking engine and returns the list of confirmed reservations.
+Your mission consists of building a simple booking engine that validates reservations, and returns the list of confirmed reservations.
 
 ```ruby
 class BookingEngine
