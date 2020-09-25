@@ -7,7 +7,7 @@
 You just got feedback from our client about our app being slow.
 We would like for you to take a look at the code and help us find what could be improved to make our app faster and more responsive.
 
-Code available on [NS Playground]()
+Code available on [NS Playground](https://play.nativescript.org/?template=play-ng&id=fu2Ljn&v=2)
 
 ## Part 2
 
