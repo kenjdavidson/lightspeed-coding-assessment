@@ -1,0 +1,277 @@
+{
+  "@attributes": {
+    "count": "13",
+    "offset": "0",
+    "limit": "100"
+  },
+  "Customer": [
+    {
+      "firstName": "Miles",
+      "lastName": "Morales",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "2",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "1",
+      "createTime": "2020-06-05T14:10:27+00:00",
+      "timeStamp": "2020-08-31T14:41:29+00:00",
+      "archived": "false",
+      "Contact": {
+        "contactID": "20",
+        "custom": "",
+        "noEmail": "false",
+        "noPhone": "false",
+        "noMail": "false",
+        "Addresses": {
+          "ContactAddress": {
+            "address1": "123 Pine St. ",
+            "address2": "",
+            "city": "Montreal",
+            "state": "Quebec",
+            "zip": "",
+            "country": "",
+            "countryCode": "",
+            "stateCode": ""
+          }
+        },
+        "Phones": {
+          "ContactPhone": {
+            "number": "514-555-1234",
+            "useType": "Home"
+          }
+        },
+        "Emails": {
+          "ContactEmail": {
+            "address": "milesmorales@lightspeedhq.com",
+            "useType": "Primary"
+          }
+        },
+        "Websites": "",
+        "timeStamp": "2016-07-25T17:50:08+00:00"
+      }
+    },
+    {
+      "firstName": "Biff",
+      "lastName": "Tannen",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "2",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "2",
+      "createTime": "2020-06-16T21:11:03+00:00",
+      "timeStamp": "2020-09-11T19:31:36+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Dan",
+      "lastName": "Buff",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "3",
+      "createTime": "2020-10-13T13:57:01+00:00",
+      "timeStamp": "2020-10-13T13:57:02+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Danny",
+      "lastName": "Terrance",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "4",
+      "createTime": "2020-10-13T14:04:46+00:00",
+      "timeStamp": "2020-10-13T14:04:46+00:00",
+      "archived": "false",
+      "Contact": {
+        "contactID": "20",
+        "custom": "",
+        "noEmail": "false",
+        "noPhone": "false",
+        "noMail": "true",
+        "Addresses": {
+          "ContactAddress": {
+            "address1": "123 Pine St. ",
+            "address2": "",
+            "city": "Montreal",
+            "state": "Quebec",
+            "zip": "",
+            "country": "",
+            "countryCode": "",
+            "stateCode": ""
+          }
+        },
+        "Phones": {
+          "ContactPhone": {
+            "number": "514-555-1234",
+            "useType": "Home"
+          }
+        },
+        "Websites": "",
+        "timeStamp": "2016-07-25T17:50:08+00:00"
+      }
+    },
+    {
+      "firstName": "Danny ",
+      "lastName": "Crocket",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "5",
+      "createTime": "2020-10-13T14:04:57+00:00",
+      "timeStamp": "2020-10-13T14:04:57+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Bill",
+      "lastName": "Burr",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "6",
+      "createTime": "2020-10-13T18:45:37+00:00",
+      "timeStamp": "2020-10-13T18:45:37+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "John",
+      "lastName": "Jelly",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "7",
+      "createTime": "2020-10-13T18:45:48+00:00",
+      "timeStamp": "2020-10-13T18:45:48+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "James",
+      "lastName": "King",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "8",
+      "createTime": "2020-10-13T18:46:02+00:00",
+      "timeStamp": "2020-10-13T18:46:02+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Tim",
+      "lastName": "Benson",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "9",
+      "createTime": "2020-10-13T18:46:15+00:00",
+      "timeStamp": "2020-10-13T18:46:15+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Brandon",
+      "lastName": "Young",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "10",
+      "createTime": "2020-10-13T18:46:25+00:00",
+      "timeStamp": "2020-10-13T18:46:25+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Caleb",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "11",
+      "createTime": "2020-10-13T18:46:37+00:00",
+      "timeStamp": "2020-10-13T18:46:37+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Matt",
+      "lastName": "Murdock",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "12",
+      "createTime": "2020-10-13T18:46:50+00:00",
+      "timeStamp": "2020-10-13T18:46:50+00:00",
+      "archived": "false"
+    },
+    {
+      "firstName": "Joseph",
+      "lastName": "Bien",
+      "title": "",
+      "company": "",
+      "companyRegistrationNumber": "",
+      "vatNumber": "",
+      "creditAccountID": "0",
+      "customerTypeID": "0",
+      "discountID": "0",
+      "taxCategoryID": "0",
+      "customerID": "13",
+      "createTime": "2020-10-13T18:52:21+00:00",
+      "timeStamp": "2020-10-13T18:52:21+00:00",
+      "archived": "false"
+    }
+  ]
+}

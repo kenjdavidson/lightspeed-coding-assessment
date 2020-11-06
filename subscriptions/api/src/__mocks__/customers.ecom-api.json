@@ -1,0 +1,25 @@
+{
+    "count": 4,
+    "data": [
+        {
+            "firstName": "Miles",
+            "lastName": "Morales",
+            "email": "milesmorales@lightspeedhq.com"
+        },
+        {
+            "firstName": "Biff",
+            "lastName": "Tannen",
+            "email": ""
+        },
+        {
+            "firstName": "Dan",
+            "lastName": "Buff",
+            "email": ""
+        },
+        {
+            "firstName": "Danny",
+            "lastName": "Terrance",
+            "email": ""
+        }
+    ]
+}
