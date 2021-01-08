@@ -6,47 +6,55 @@ Golf clubs manage player reservations through our system. When a player wants to
 make a reservation, they request it through a booking engine. The system will
 then confirm if the submitted reservation is valid.
 
-Your mission consists of building a simple booking application that validates
-and returns a list of confirmed reservations.
+Your mission today consists of building a simple booking application that
+validates reservation requests and returns a list of confirmed reservations.
 
 ```ruby
 class BookingEngine
 end
 ```
 
+**Step 0**
+
+Let's take care of your setup first.
+
+1. Clone the repo with the method of your choice (GitHub offers several options from the UI)
+2. `cd backend/booking_engine` into your local copy of the project
+3. From the terminal, run `bundle install` to install the dependencies
+4. Then, run `rspec` to run the test suite
+
 **Step 1**
 
-The booking engine must implement the following rules:
+Oh no! Specs are failing. It looks like we have a bug.
 
-- A minimum of 10 minutes between start times
-- For a given player, each reservation must be at least 2 hours apart
-
-To get started, here is the list of confirmed reservations.
-
-```ruby
-[
-  { id: 1, starts_at: "2020-02-01 06:00:00 -0500", player: "Anna" },
-  { id: 2, starts_at: "2020-02-01 06:10:00 -0500", player: "Mike" },
-  { id: 3, starts_at: "2020-02-01 06:20:00 -0500", player: "Mary" }
-]
-```
+Could you have a look and fix it?
 
 **Step 2**
 
-Once the engine is in place, demonstrate how the system can handle a request for
-a reservation and mark it as "confirmed" if valid.
+To manage thousands of reservations, first we need a way to create new ones. Can
+you add a method to add a new reservation? Again, a team member left a basic
+example commented out for that.
 
-The expected output is to append the list of reservations with the new request.
+Once you're done, can you write a new test to make sure the new reservation is
+added to the system?
 
 **Step 3**
 
-Finally, let's assume that the Front-End team expects a payload that lists all
-reservations.
+As with any other booking system, reservations must follow some business rules.
 
-Update your code to be able to return a payload meeting the following
-requirements:
+Let's change the system to make sure the system only accepts valid requests
+according to these:
 
-- JSON format
-- Pagination (2 records per page)
+- Start times must be 10-minute intervals, i.e. 9:00 and 9:10 are valid, 9:03 is not.
+- For any given player, their reservations must be at least 2 hours apart.
+
+The system should only accept valid requests. Let's make sure we raise an error
+if we try to add an invalid reservation.
+
+**Step 4**
+
+Finally, can you add implement a pagination mechanism to return say, 2 reservations per page
+
+Good luck and, let's go!
 
 [crest]: https://cdn2.chronogolf.com/assets/logos/Github%20-%20Header.png
