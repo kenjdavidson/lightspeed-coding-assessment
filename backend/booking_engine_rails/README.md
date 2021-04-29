@@ -18,8 +18,10 @@ end
 
 Let's take care of your setup first.
 
-- Chose a dev environment and a language that suits you
-- Let's start pairing together!
+1. Clone the repo with the method of your choice (GitHub offers several options from the UI)
+2. `cd backend/booking_engine` into your local copy of the project
+3. From the terminal, run `bundle install` to install the dependencies
+4. Then, run `rspec` to run the test suite
 
 **Step 1**
 
