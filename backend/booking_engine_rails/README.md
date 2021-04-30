@@ -3,7 +3,7 @@
 # The Booking Engine challenge
 
 Golf clubs manage player reservations through our system. When a player wants to
-make a reservation, they request it through a booking engine. The system will
+make a reservation, they request it through the booking engine. The system will
 then confirm if the submitted reservation is valid.
 
 Your mission today consists of building a simple booking application that
