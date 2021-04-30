@@ -53,7 +53,7 @@ if we try to add an invalid reservation.
 
 **Step 4**
 
-Finally, can you add implement a pagination mechanism to return say, 2 reservations per page
+Finally, can you implement a pagination mechanism to return say, 2 reservations per page
 
 Good luck and, let's go!
 
