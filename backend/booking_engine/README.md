@@ -18,7 +18,7 @@ end
 
 Let's take care of your setup first.
 
-- Chose a dev environment and a language that suits you
+- Choose a dev environment and a language that suits you
 - Let's start pairing together!
 
 **Step 1**
