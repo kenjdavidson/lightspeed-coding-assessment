@@ -40,10 +40,10 @@ added to the system?
 
 As with any other booking system, reservations must follow some business rules.
 
-Let's change the system to make sure the system only accepts valid requests
-according to these:
+Let's change the system to make sure it only accepts requests
+according to the following requirements:
 
-- Start times must be 10-minute intervals, i.e. 9:00 and 9:10 are valid, 9:03 is not.
+- Start times must be 10-minute intervals. (i.e. 9:00 and 9:10 are valid but 9:03 is invalid)
 - For any given player, their reservations must be at least 2 hours apart.
 
 The system should only accept valid requests. Let's make sure we raise an error
