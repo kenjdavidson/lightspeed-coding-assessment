@@ -1,0 +1,10 @@
+class BookingEngine
+
+  all
+    File.read("./reservations.json").last(2)
+
+  create(attributes)
+    # ...
+
+  valid
+    # ...

@@ -9,52 +9,45 @@ then confirm if the submitted reservation is valid.
 Your mission today consists of building a simple booking application that
 validates reservation requests and returns a list of confirmed reservations.
 
-```ruby
-class BookingEngine
-end
-```
-
-**Step 0**
+### Environment Setup
 
 Let's take care of your setup first.
 
-1. Clone the repo with the method of your choice (GitHub offers several options from the UI)
-2. `cd backend/booking_engine` into your local copy of the project
-3. From the terminal, run `bundle install` to install the dependencies
-4. Then, run `rspec` to run the test suite
+- Choose a dev environment and a language that suits you
+  - A dev environment on your personal computer is perfect!
+  - Coderpad is available if you would prefer
+  - Choose the language you are most comfortable with
+- Let's start pairing together!
 
-**Step 1**
-
-Oh no! Specs are failing. It looks like we have a bug.
-
-Could you have a look and fix it?
-
-**Step 2**
-
-To manage thousands of reservations, first we need a way to create new ones. Can
-you add a method to add a new reservation? Again, a team member left a basic
-example commented out for that.
-
-Once you're done, can you write a new test to make sure the new reservation is
-added to the system?
-
-**Step 3**
+### Reservation Validation
 
 As with any other booking system, reservations must follow some business rules.
 
-Let's change the system to make sure the system only accepts valid requests
-according to these:
+For our system, reservations must meet the following requirements:
 
-- Start times must be 10-minute intervals, i.e. 9:00 and 9:10 are valid, 9:03 is not.
+- Start times must be 10-minute intervals. (i.e. 9:00 and 9:10 are valid but 9:03 is invalid)
 - For any given player, their reservations must be at least 2 hours apart.
 
-The system should only accept valid requests. Let's make sure we raise an error
-if we try to add an invalid reservation.
+**Let's write some code to perform this validation.**
 
-**Step 4**
+### Testing
 
-Finally, can you add implement a pagination mechanism to return say, 2 reservations per page
+Great! Now that we have some code to validate our reservations, let's write some tests.
 
-Good luck and, let's go!
+**Start with the basics:**
+- Given a valid reservation, our code returns `true`
+- Given an invalid interval, our code returns `false`
+- Given a reservation that overlaps for this player, our code returns `false`
+
+Now let's think about some edge cases. **How could we break our code?** 
+
+### API Design
+
+Now that we have some battle-tested reservation logic, 
+how might we use this to build a REST API which allows players to book reservations?
+
+### Scalability
+
+What considerations should we make if this reservation system needs to handle thousands of request per hour?
 
 [crest]: https://cdn2.chronogolf.com/assets/logos/Github%20-%20Header.png
