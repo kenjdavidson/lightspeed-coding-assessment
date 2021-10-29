@@ -1,0 +1,26 @@
+// Step 1 - Be able to create a new reservation
+// Step 2 - Validate reservations are 10 minutes apart
+// Step 1 - Validate same-player reservations are 2 hours apart
+
+class BookingEngine
+  reservations = [
+    {"starts_at": "2020-02-01T06:00:00.000-05:00", "player": "Anna"},
+    {"starts_at": "2020-02-01T06:10:00.000-05:00", "player": "Mike"},
+    {"starts_at": "2020-02-01T06:20:00.000-05:00", "player": "Mary"}
+  ]
+
+  all
+    return reservations
+
+  create(attributes)
+    # ...
+
+////////
+
+validReservation = {"starts_at": "2020-02-01T08:00:00.000-05:00", "player": "Anna"}
+invalidReservation1 = {"starts_at": "2020-02-01T06:25:00.000-05:00", "player": "John"}
+invalidReservation2 = {"starts_at": "2020-02-01T07:10:00.000-05:00", "player": "Mike"}
+
+BookingEngine.create(validReservation)
+BookingEngine.create(invalidReservation1)
+BookingEngine.create(invalidReservation2)
