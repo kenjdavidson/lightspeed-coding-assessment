@@ -19,31 +19,27 @@ Let's take care of your setup first.
   - Choose the language you are most comfortable with
 - Let's start pairing together!
 
-### Reservation Validation
+### Step 1 - Be able to create a new reservation
+
+Before anything else, we want to be able to accept new bookings from players
+Provide a method to create a new reservation
+
+### Step 2 - Validate reservations are 10 minutes apart
 
 As with any other booking system, reservations must follow some business rules.
-
 For our system, reservations must meet the following requirements:
 
-- Start times must be 10-minute intervals. (i.e. 9:00 and 9:10 are valid but 9:03 is invalid)
-- For any given player, their reservations must be at least 2 hours apart.
+- Start times must be at multiples of 10 minutes. (i.e. 9:00 and 9:10 are valid but 9:03 is invalid)
 
-**Let's write some code to perform this validation.**
+### Step 3 - Validate same-player reservations are 2 hours apart
 
-### Testing
+Then we'd like to add another requirement:
 
-Great! Now that we have some code to validate our reservations, let's write some tests.
-
-**Start with the basics:**
-- Given a valid reservation, our code returns `true`
-- Given an invalid interval, our code returns `false`
-- Given a reservation that overlaps for this player, our code returns `false`
-
-Now let's think about some edge cases. **How could we break our code?** 
+- A player cannot book more than once within a 2 hours range
 
 ### API Design
 
-Now that we have some battle-tested reservation logic, 
+Now that we have some battle-tested reservation logic,
 how might we use this to build a REST API which allows players to book reservations?
 
 ### Scalability
