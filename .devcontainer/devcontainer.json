@@ -1,0 +1,76 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the README at:
+// https://github.com/microsoft/vscode-dev-containers/tree/v0.209.6/containers/ruby
+{
+	"name": "Ruby",
+	"build": {
+		"dockerfile": "Dockerfile",
+		"args": { 
+			// Update 'VARIANT' to pick a Ruby version: 3, 3.0, 2, 2.7, 2.6
+			// Append -bullseye or -buster to pin to an OS version.
+			// Use -bullseye variants on local on arm64/Apple Silicon.
+			"VARIANT": "3-bullseye",
+			// Options
+			"NODE_VERSION": "lts/*"
+		}
+	},
+
+	// Set *default* container specific settings.json values on container create.
+	"settings": {
+		"ruby.useBundler": false,
+		"ruby.rubocop.onSave": true,
+		"ruby.rubocop.useBundler": true,
+		"ruby.useLanguageServer": false,
+		"ruby.languageServer": {
+			"logLevel": "info"
+		},
+		"solargraph.useBundler": true,
+		"solargraph.completion": true,
+		"solargraph.hover": true,
+		"solargraph.autoformat": true,
+		"solargraph.formatting": true,
+		"solargraph.definitions": true,
+		"solargraph.references": true,
+		"solargraph.logLevel": "debug",
+		"rubyTestExplorer.testFramework":"rspec",
+		"rubyTestExplorer.logpanel": true,
+		"rubyTestExplorer.rspecDirectory": "./spec/",
+		"rubyTestExplorer.filePattern": [
+			"*_test.rb",
+			"test_*.rb",
+			"*_spec.rb"
+		],
+		"css.validate": false,
+		"editor.quickSuggestions": {
+			"other": true,
+			"comments": true,
+			"strings": true
+		},
+		"files.associations": {
+			"*.html.erb": "html"
+		}
+	},
+
+	// Add the IDs of extensions you want installed when the container is created.
+	"extensions": [
+		"rebornix.Ruby",
+		"castwide.solargraph",
+		"kaiwood.endwise",
+		"misogi.ruby-rubocop",
+		"groksrc.ruby",
+		"hoovercj.ruby-linter",
+		"miguel-savignano.ruby-symbols",
+		"wingrunr21.vscode-ruby",
+		"ms-vscode.test-adapter-converter",
+		"connorshea.vscode-ruby-test-adapter"
+	],
+	
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	// "postCreateCommand": "ruby --version",
+
+	// Comment out connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
+	"remoteUser": "vscode"
+
+}
