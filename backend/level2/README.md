@@ -9,3 +9,11 @@ Thanks to the dynamic pricing engine, the club decides to create the following r
 - Price per golfer increases by **5%** when booking the **same day** as the tee-time
 
 Again, calculate the price of each reservation by taking into account those rules.
+
+# Notes
+
+Some notes regarding decisions and choices made:
+
+## Currency
+
+I'm still torn on outputting integers to match the current file or always including `.00` on output currencies.  I wasn't sure how far to take this, but in general I probably should have started using `bigdecimal` or some other currency library sooner.
