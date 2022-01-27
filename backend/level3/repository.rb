@@ -4,7 +4,7 @@ require_relative 'reservation'
 
 class Repository 
   def self.data
-    @data ||= JSON.load_file("#{__dir__}/data/input.json")
+    @data ||= JSON.parse(File.read("#{__dir__}/data/input.json"))
   end
 
   def self.tee_times
