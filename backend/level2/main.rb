@@ -14,7 +14,7 @@ require_relative 'reservation'
 # 	- tee_time_id: integer (tee_times)
 # 	- number_of_golfers: integer \
 path = File.expand_path(File.dirname(File.dirname(__FILE__)))
-input_data = JSON.load_file("#{path}/data/input.json")
+input_data = JSON.parse(File.read("#{path}/data/input.json"))
 
 tee_times = TeeTime.deserialize(input_data['tee_times'])
 reservations = Reservation.deserialize(input_data['reservations'], tee_times)
