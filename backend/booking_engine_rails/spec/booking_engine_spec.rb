@@ -45,7 +45,8 @@ RSpec.describe BookingEngine do
     it "adds a reservation" do
       is_expected.to include(
         id: 4,
-        player: "Ken"
+        player: "Ken",
+        starts_at: "2020-02-01T06:30:00.00-05:00"
       )
     end
   end
@@ -62,7 +63,7 @@ RSpec.describe BookingEngine do
     end
     
     context "within 2 hours" do 
-      it "failes validation on Anna, 2020-02-01T06:30:00.000-05:00" do
+      it "fails validation on Anna, 2020-02-01T06:30:00.000-05:00" do
         expect { described_class.validate_member_interval?({ player: "Anna", starts_at: "2020-02-01T06:30:00.000-05:00"}) }.to raise_error(StandardError)
       end
 

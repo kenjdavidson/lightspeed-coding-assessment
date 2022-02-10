@@ -16,7 +16,10 @@ class BookingEngine
 
   def self.page(page = 1, size = 2) 
     page_start = (page-1) * size    
-    self.all[page_start...page_start+size]
+    
+    # Return 
+
+    self.all[page_start...min_end]
   end
 
   def self.user_reservations(player_id)
